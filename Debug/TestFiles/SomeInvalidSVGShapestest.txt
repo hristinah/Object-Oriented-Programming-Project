@@ -1,0 +1,5 @@
+<svg>
+  <rect x="5" y="5" width="10" height="10" fill="green" />
+  <circl cx="5" cy="5" r="10" fill="blue" />
+  <line x1="5" y1="3" x2="10" y2="-5" fill="blue" / >
+</svg>

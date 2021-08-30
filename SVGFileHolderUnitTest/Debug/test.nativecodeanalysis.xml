@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\калин\Desktop\c++projects\oop\SVGFileProgram\SVGFileHolderUnitTest\</FILEPATH>
+      <FILENAME>test.cpp</FILENAME>
+      <LINE>129</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SVGFileHolderFunctionalytyTest::loaded_file' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SVGFileHolderFunctionalytyTest::{ctor}</FUNCTION>
+    <DECORATED>??0SVGFileHolderFunctionalytyTest@@QAE@XZ</DECORATED>
+    <FUNCLINE>129</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SVGFileHolderFunctionalytyTest::loaded_file</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\калин\Desktop\c++projects\oop\SVGFileProgram\Debug\SVGFileHolderUnitTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="SVGFileHolderConstructorTest.ConstructFromExistingFileTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderConstructorTest.ConstructFromNonExistentFileTest" Duration="4" />
+    <TestDuration Test="SVGFileHolderConstructorTest.ConstructFromFileWithOnlyValidSVGShapesTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderConstructorTest.ConstructFromFileWithSomeInvalidSVGShapesTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderConstructorTest.ConstructFromFileWithNoValidSVGShapesTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderConstructorTest.ConstructFromFileWithSomeTextOutsideOfLtGtTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderConstructorTest.ConstructFromFileWithOnlyTextOutsideOfLtGtTest" Duration="1" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.PrintTest" Duration="1" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.SaveSuccessTest" Duration="3" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.SaveWithNoChangesTest" Duration="15" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.SaveAsSuccessTest" Duration="10" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.SaveAsWithNoChangesTest" Duration="16" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.SaveAsAfterChangesTest" Duration="14" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.EraseSuccessTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.EraseNoSuchFigureTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.EraseIncorrectArgumentsTest" Duration="3" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.EraseIncorrectNumOfArgumentsTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.CreateSuccessTest" Duration="7" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.CreateCircleTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.CreateLineTest" Duration="3" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.CreateRectangleTest" Duration="9" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.CreateIncorrectArgumentsTest" Duration="6" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.CreateIncorrectNumOfArgumentsTest" Duration="3" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.TranslateSuccessTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.TranslateIncorrectArgumentsTest" Duration="8" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.TranslateIncorrectNumOfArgumentsTest" Duration="11" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.WithinCircleSuccessTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.WithinRectangleSuccessTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.WithinCircleNoShapesTest" Duration="7" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.WithinRectangleNoShapesTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.WithinIncorrectShapeTest" Duration="1" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.WithinIncorrectArgumentsTest" Duration="2" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.WithinIncorrectNumOfArgumentsTest" Duration="3" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.TranslateIncorrectNumOfArgumentsTest1" Duration="3" />
+    <TestDuration Test="SVGFileHolderFunctionalytyTest.TranslateIncorrectNumOfArgumentsTest2" Duration="2" />
+  </TestDurations>
+</GtaTestDurations>

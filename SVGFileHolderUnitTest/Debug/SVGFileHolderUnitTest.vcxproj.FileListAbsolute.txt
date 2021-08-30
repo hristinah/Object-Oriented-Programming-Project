@@ -1,0 +1,1 @@
+C:\Users\калин\Desktop\c++projects\oop\SVGFileProgram\SVGFileHolderUnitTest\Debug\SVGFileHolderUnitTest.vcxproj.CopyComplete

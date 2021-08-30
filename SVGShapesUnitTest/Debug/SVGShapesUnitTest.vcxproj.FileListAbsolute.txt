@@ -1,0 +1,1 @@
+C:\Users\калин\Desktop\c++projects\oop\SVGFileProgram\SVGShapesUnitTest\Debug\SVGShapesUnitTest.vcxproj.CopyComplete

@@ -1,0 +1,146 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x001FC1C0 -il C:\\Users\\3AA9~1\\AppData\\Local\\Temp\\_CL_16a9a7f3ast -typedil -f SVGProgram.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930038 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\SVGProgram.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\калин\\Desktop\\c++projects\\oop\\SVGFileProgram\\SVGFileProgram -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgshape.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ec39b1df0ea1c02d5b5edc4c5212601c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgshape.h"
+          },
+          "hashes": {
+            "md5": "14fa587885bbbe79771aa35129e5b643"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/incorrectargstrexception.h"
+          },
+          "hashes": {
+            "md5": "92008d3136eb2899d2a7c85b4e46b478"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/point.h"
+          },
+          "hashes": {
+            "md5": "d124ccb2519d70c4a859c4e0ebfd19fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/circle.h"
+          },
+          "hashes": {
+            "md5": "f88880e56ed90f2f32a9ce4b9144ccc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/rectangle.h"
+          },
+          "hashes": {
+            "md5": "e31a5704cbc84989e0ecc2873b73ab9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgrectangle.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "3a1d71dd40416d65cd37e4efb5529640"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgrectangle.h"
+          },
+          "hashes": {
+            "md5": "8474e414f6b87ab76a568eb12db3fd75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgprogram.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6915ee88887eedb255dcfa04d73c8595"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgprogram.h"
+          },
+          "hashes": {
+            "md5": "7af04f384dd4dac0a82ca5c36ee07fee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgfileholder.h"
+          },
+          "hashes": {
+            "md5": "10fc690713d1804d5c17e8a2b99ce700"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgcircle.h"
+          },
+          "hashes": {
+            "md5": "f0ea4772cb1a84ffea554d4df4e3774c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/svgline.h"
+          },
+          "hashes": {
+            "md5": "b532f4a4779caaab10046061dafa4787"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/калин/desktop/c++projects/oop/svgfileprogram/svgfileprogram/stringsplitter.h"
+          },
+          "hashes": {
+            "md5": "7781e3d2ee5079af2a7caaabedd27e0b"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\калин\Desktop\c++projects\oop\SVGFileProgram\Debug\SVGShapesUnitTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="PointTest.TranslateTest" Duration="1" />
+    <TestDuration Test="PointTest.IsInCircleTest" Duration="1" />
+    <TestDuration Test="PointTest.IsInRectangleTest" Duration="1" />
+    <TestDuration Test="SVGShapeFunctionalityTest.PositionEqualsTest" Duration="1" />
+    <TestDuration Test="SVGShapeFunctionalityTest.ArgumentHoldsTheGivenAttributeTest" Duration="1" />
+    <TestDuration Test="SVGShapeFunctionalityTest.GetArgumentValueTest" Duration="1" />
+    <TestDuration Test="SVGShapeFunctionalityTest.GetAttributeValueTest" Duration="1" />
+    <TestDuration Test="SVGShapeFunctionalityTest.AssignAttributeTest" Duration="1" />
+    <TestDuration Test="SVGShapeConstructorTest.CircleConstructorTest" Duration="1" />
+    <TestDuration Test="SVGShapeConstructorTest.RectangleConstructorTest" Duration="1" />
+    <TestDuration Test="SVGShapeConstructorTest.LineConstructorTest" Duration="1" />
+    <TestDuration Test="SVGShapeUtilityTest.PositionEqualsTest" Duration="1" />
+    <TestDuration Test="SVGShapeUtilityTest.ArgumentHoldsTheGivenAttributeTest" Duration="1" />
+    <TestDuration Test="SVGShapeUtilityTest.GetAttributeValueTest" Duration="1" />
+    <TestDuration Test="SVGShapeUtilityTest.AssignAttributeTest" Duration="1" />
+    <TestDuration Test="SVGCircleFunctionalityTest.SVGCircleConstructorTest" Duration="1" />
+    <TestDuration Test="SVGCircleFunctionalityTest.SVGCircleTranslateTest" Duration="1" />
+    <TestDuration Test="SVGCircleFunctionalityTest.ConstructorTest" Duration="1" />
+    <TestDuration Test="SVGCircleFunctionalityTest.TranslateTest" Duration="1" />
+    <TestDuration Test="SVGCircleFunctionalityTest.ToStringTest" Duration="1" />
+    <TestDuration Test="SVGCircleFunctionalityTest.IsWithinCircleAreaTest" Duration="1" />
+    <TestDuration Test="SVGCircleFunctionalityTest.IsWithinRectangleAreaTest" Duration="1" />
+    <TestDuration Test="SVGRectangleFunctionalityTest.RectangleConstructorTest" Duration="2" />
+    <TestDuration Test="SVGRectangleFunctionalityTest.TranslateTest" Duration="1" />
+    <TestDuration Test="SVGRectangleFunctionalityTest.ToStringTest" Duration="1" />
+    <TestDuration Test="SVGLineFunctionalityTest.LineConstructorTest" Duration="1" />
+    <TestDuration Test="SVGLineFunctionalityTest.TranslateTest" Duration="1" />
+    <TestDuration Test="SVGLineFunctionalityTest.ToStringTest" Duration="1" />
+    <TestDuration Test="SVGLineFunctionalityTest.IsWithinCircleAreaTest" Duration="1" />
+    <TestDuration Test="SVGLineFunctionalityTest.IsWithinRectangleAreaTest" Duration="1" />
+    <TestDuration Test="SVGRectangleFunctionalityTest.IsWithinCircleAreaTest" Duration="1" />
+    <TestDuration Test="SVGRectangleFunctionalityTest.IsWithinRectangleAreaTest" Duration="1" />
+    <TestDuration Test="SVGShapeFactoryTest.LineConstructorTest" Duration="2" />
+    <TestDuration Test="SVGShapeFactoryTest.CircleConstructorTest" Duration="2" />
+    <TestDuration Test="SVGShapeFactoryTest.RectangleConstructorTest" Duration="2" />
+    <TestDuration Test="SVGShapeFactoryTest.UnknownShapeConstructorTest" Duration="1" />
+    <TestDuration Test="SVGCircleFunctionalityTest.ToStringForConsoleTest" Duration="1" />
+    <TestDuration Test="SVGRectangleFunctionalityTest.ToStringForConsoleTest" Duration="1" />
+    <TestDuration Test="SVGLineFunctionalityTest.ToStringForConsoleTest" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

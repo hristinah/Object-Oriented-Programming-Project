@@ -1,0 +1,3 @@
+<dfdg fdg ggggd   ghg />
+<circle cy="5" r="10d fill="blue" />
+<ln x1="5" y1="3" x2="10" y2="-5" />
